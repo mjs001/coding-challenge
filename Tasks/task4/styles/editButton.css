@@ -1,0 +1,51 @@
+.edit-btn {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: #144B92;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  width: 100%;
+  min-width: 50px;
+  max-width: 250px;
+}
+.front {
+  width: 100%;
+  display: block;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 24px;
+  background: #2492C5;
+  color: #CAF0F8;
+  transform: translateY(-10px);
+  text-align: center;
+}
+
+.edit-btn:active .front {
+  transform: translateY(-3px);
+}
+
+
+@media screen and (max-width: 768px) {
+  .edit-btn {
+    max-width: 180px;
+  }
+  .front {
+    padding: 14px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .edit-btn {
+    max-width: 150px;
+  }
+  .front {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+}

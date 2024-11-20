@@ -1,17 +1,17 @@
-
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 80vh;
-}
-
-#editable-header {
-  font-family: Tahoma, sans-serif;
   text-align: center;
 }
 
-.edit-btn {
-
+#editable-header {
+  vertical-align: middle;
+  font-family: Tahoma, sans-serif;
+  text-align: center;
+  color: #03045e;
+  font-size: calc(24px + 1.5vw);
+  text-shadow: 1px 4px 3px rgba(20,75,146,0.56);
 }
