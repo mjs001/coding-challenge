@@ -13,4 +13,7 @@ I decided to use a ternary statement because I felt it would make it easier to r
 
 
 ## Task4
+I ran into an issue while making the header’s font size responsive. Initially, I tried using the clamp() function to set a minimum and maximum size. However, I realized that not all browsers support it, and I would need to provide a fallback. On the other hand, using responsive units alone removed the ability to set a minimum font size.
+
+As a solution, I opted for a calc() function that allows the font size to have a minimum value while still scaling up based on the viewport width. This approach provides the responsiveness I wanted while ensuring the text doesn't get too small.
 

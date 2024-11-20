@@ -1,5 +1,9 @@
 .content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -13,5 +17,6 @@
   text-align: center;
   color: #03045e;
   font-size: calc(24px + 1.5vw);
-  text-shadow: 1px 4px 3px rgba(20,75,146,0.56);
+  text-shadow: 1px 4px 3px rgba(20, 75, 146, 0.56);
+  -webkit-text-shadow: 1px 4px 3px rgba(20, 75, 146, 0.56);
 }

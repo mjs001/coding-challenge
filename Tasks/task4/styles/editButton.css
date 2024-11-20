@@ -1,5 +1,7 @@
 .edit-btn {
-  display:flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   justify-content: center;
   align-items: center;
   background: #144B92;
@@ -12,6 +14,7 @@
   min-width: 50px;
   max-width: 250px;
 }
+
 .front {
   width: 100%;
   display: block;
@@ -20,14 +23,17 @@
   font-size: 24px;
   background: #2492C5;
   color: #CAF0F8;
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
   transform: translateY(-10px);
   text-align: center;
 }
 
 .edit-btn:active .front {
+  -webkit-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
   transform: translateY(-3px);
 }
-
 
 @media screen and (max-width: 768px) {
   .edit-btn {

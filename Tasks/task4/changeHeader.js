@@ -1,9 +1,8 @@
 let clicked = false;
 
 const changeHeader = () => {
-  const header = document.getElementById("editable-header");
   clicked = !clicked;
-  let text = "";
-  clicked ? text = " Although, I prefer to go by Myco." : text = "Hello, my name is Miriam.";
-  header.textContent = text;
+  const header = document.getElementById("editable-header");
+  const headerText = clicked ? "Although, I prefer to go by Myco." : "Hello, my name is Miriam.";
+  header.textContent = headerText;
 }
