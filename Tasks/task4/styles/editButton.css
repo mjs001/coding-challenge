@@ -1,4 +1,4 @@
-.edit-btn {
+#edit-btn {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-.edit-btn:active .front {
+#edit-btn:active .front {
   -webkit-transform: translateY(-3px);
   -ms-transform: translateY(-3px);
   transform: translateY(-3px);
@@ -50,7 +50,6 @@
     max-width: 150px;
   }
   .front {
-    width: 100%;
     padding: 10px;
     font-size: 16px;
   }
